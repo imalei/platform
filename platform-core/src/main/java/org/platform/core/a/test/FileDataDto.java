@@ -27,6 +27,8 @@ public class FileDataDto {
     private String s4;
 
     private String s5;
+    
+    private String s6;
 
     /**
      * @return the s1
