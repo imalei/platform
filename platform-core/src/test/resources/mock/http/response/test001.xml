@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<errorCode>0000</errorCode>
+	<errorMsg>交易成功</errorMsg>
+    <serviceId>test001</serviceId>
+    <aaa>aaa</aaa>
+    <testList>
+        <custRegInfo>
+            <custNo>001</custNo>
+            <custType>A</custType>
+        </custRegInfo>
+        <custRegInfo>
+            <custNo>002</custNo>
+            <custType>B</custType>
+        </custRegInfo>
+        <custRegInfo>
+            <custNo>003</custNo>
+            <custType>C</custType>
+        </custRegInfo>
+    </testList>
+    <testMap>
+        <element key="maptest">
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tCustRegInfo">
+                <custNo>001</custNo>
+                <custType>A</custType>
+            </value>
+        </element>
+    </testMap>
+</root>
